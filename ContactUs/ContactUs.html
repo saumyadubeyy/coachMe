@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet"
+    href="ContactUs.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <div class="navbar">
+                <img src="../assets-index/logo.jpg">
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Features/Features.html">Features</a></li>
+                    <li><a href="../AboutUs/AboutUs.html">About Us</a></li>
+                    <li><a href="../FAQs/FAQs.html">FAQs</a></li>
+                    <li><a href="../ContactUs/ContactUs.html">Contact Us</a></li>
+                    <li><button>Sign In</button></li>
+                </ul>
+            </div>
+            <h2>                '</h2>
+            <form id="ContactUs" method="post">
+                <div><h2>Come say hi!</h2></div>
+                <div class="cu">
+                    <label>First Name :</label>
+                    <input type="text" name="fname" id="name" placeholder="Enter your first name">
+                    <br/>
+                </div>
+                <div class="cu">
+                    <label for="Last Name">Last name:</label>
+                    <input type="text" name="lname" id="name" placeholder="Enter your last name">
+                    <br/>
+                </div>
+                <div class="cu"> 
+                    <label>Enter your age:</label>
+                    <input type="number" name="age" id="name" placeholder="How old are you?">
+                    <br>
+                </div>
+               <div class="cu">
+                    <label>Email ID:</label>
+                    <input type="email" name="email" id="name" placeholder="Enter your email id">
+                    <br>
+               </div>
+                <div class="cu">
+                    <label >Contact Number: </label>
+                    <input type="number" name="number" id="name" placeholder="Enter your contact number">
+                    <br>
+                </div>
+                <div class="cu2">
+                    <label>Gender:</label>
+                    <input type="radio" name="Gender" id="male">
+                    <span id="male">Male</span>
+                    <input type="radio" name="Gender" id="female">
+                    <span id="female">Female</span>
+                    <br>
+                </div>
+                <div class="cu">
+                    <label >Message: </label><br/><br/>
+                    <textarea name="comment" id="name" cols="30" rows="10" placeholder="Enter comments here"></textarea>             
+                    <br>
+                </div>
+                <input type="submit" value="Submit" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
